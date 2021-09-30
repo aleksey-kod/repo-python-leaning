@@ -1,3 +1,4 @@
+
 for i in range(1,101):
     if 11<= i <=14 or i % 10 >= 5 or i % 10 == 0:
         print(i,"процентов")
