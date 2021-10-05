@@ -21,3 +21,4 @@ print()
 for char in new_prices[:5]:
     temp = str(char / 1).split(".")
     print("{} руб {:0^2} коп".format(temp[0], temp[1]), end=', ')
+
