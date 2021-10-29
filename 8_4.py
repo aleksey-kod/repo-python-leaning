@@ -24,5 +24,7 @@ try:
     print(calc_cube(-5))
 except ValueError as err:
     print(err)
+print(calc_cube.__name__)
+
 
 

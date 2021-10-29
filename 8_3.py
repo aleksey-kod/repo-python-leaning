@@ -17,6 +17,7 @@ def calc_cube(x):
 
 
 print(calc_cube(3,6,{4,3,},"cool",ur=30))
-print(calc_cube(7.6,9.3,1,2))
+print(calc_cube(7.6,[19,3],9.3,1,2))
 print(calc_cube(67,7.5))
+print(calc_cube.__name__)
 
